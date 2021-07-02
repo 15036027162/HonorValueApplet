@@ -1,0 +1,236 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "引导页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{//首页授权登录
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "登录首页",
+				"app-plus": {
+					"titleNView": false,
+					"navigationBarTitleText": "uni-app",
+					"enablePullDownRefresh":true
+				}
+			}
+		},
+		{//首页
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					// "titleNView": false,
+					"navigationBarTitleText": "uni-app",
+					"enablePullDownRefresh":true
+				}
+			}
+		},
+		{//滚动
+			"path": "pages/home/scroll",
+			"style": {
+				"enablePullDownRefresh": true   //配置为true
+			}
+		},
+		{//选择村庄
+			"path": "pages/home/village",
+			"style": {
+				"navigationBarTitleText": "选择村庄",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{//积分公示
+			"path": "pages/home/pointsPublicity",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{//积分公示 - 详情
+			"path": "pages/home/pointsPublicityDetail",
+			"style": {}
+		},
+		{//积分申报
+			"path": "pages/home/pointsDeclaration",
+			"style": {}
+		},
+		{//申请加分
+			"path": "pages/home/pointsDeclarationDetail",
+			"style": {}
+		},
+		{//评级授信
+			"path": "pages/home/ratingFacility",
+			"style": {}
+		},
+		{//荣誉榜单
+			"path": "pages/home/honorList",
+			"style": {}
+		},
+		{//积分排名
+			"path": "pages/home/pointsRanking",
+			"style": {}
+		},
+		{//普惠金融
+			"path": "pages/home/inclusiveFinance/inclusiveFinance",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{//普惠金融 - 详情
+			"path": "pages/home/inclusiveFinance/inclusiveDetail",
+			"style": {}
+		},
+		{//信息公开
+			"path": "pages/home/informationDisclosure/informationDisclosure",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{//信息公开 - 详情
+			"path": "pages/home/informationDisclosure/informationDetail",
+			"style": {}
+		},
+		{//我的
+			"path": "pages/mine/index",
+			"style": {}
+		},
+		{//个人信息
+			"path": "pages/mine/perInformation",
+			"style": {}
+		},
+		{//账号设置
+			"path": "pages/mine/accountSettings",
+			"style": {}
+		},
+		{//修改用户
+			"path": "pages/mine/perInformation/changeUserName",
+			"style": {}
+		},
+		{//修改手机号
+			"path": "pages/mine/accountSettings/changePhone",
+			"style": {}
+		},
+		{//修改密码
+			"path": "pages/mine/accountSettings/changePassword",
+			"style": {}
+		},
+		{//修改密码 -- 银行
+			"path": "pages/mine/accountSettings/changeBankPassword",
+			"style": {}
+		},
+		{//实名认证
+			"path": "pages/mine/realAuthentication",
+			"style": {}
+		},
+		{//我的卡包
+			"path": "pages/mine/cardBag",
+			"style": {}
+		},
+		{//新增银行
+			"path": "pages/mine/cardBag/addBank",
+			"style": {}
+		},
+		{//我的家庭
+			"path": "pages/mine/myFamily",
+			"style": {}
+		},
+		{//关于我们
+			"path": "pages/mine/aboutUs",
+			"style": {}
+		},
+		{//圈子
+			"path": "pages/circles/index",
+			"style": {}
+		},
+		{//我的家庭
+			"path": "pages/family/index",
+			"style": {}
+		},
+		{//家庭消息
+			"path": "pages/family/familyNews",
+			"style": {}
+		},
+		{//户主转让
+			"path": "pages/family/householder",
+			"style": {}
+		},
+		{//家庭成员
+			"path": "pages/family/memberFamily",
+			"style": {}
+		},
+		{//测试弹窗
+			"path": "pages/family/popup",
+			"style": {}
+		},
+		
+		{//积分捐赠
+			"path": "pages/family/donation",
+			"style": {}
+		},
+		{//积分捐赠选择
+			"path": "pages/family/donationSelect",
+			"style": {}
+		},
+		{//要加入的家庭
+			"path": "pages/family/joinFamily",
+			"style": {}
+		},
+		{//商城
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh":true
+			}
+		},
+		{//查看认证信息
+			"path": "pages/mine/checkAuth",
+			"style": {}
+		},
+		{//上拉刷新下拉加载
+			"path": "pages/home/scroll3",
+			"style": {
+			   "navigationBarTitleText": "uni-app",
+			   "enablePullDownRefresh":true
+			}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+		"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+				"name": "表单", //模式名称
+				"path": "pages/component/form", //启动页面
+				"query": "" //启动参数
+			}
+		]
+	},
+	"easycom": {
+	  "autoscan": true,
+	  "custom": {
+	    "lb-picker": "@/components/lb-picker/index.vue"
+	  }
+	}
+
+
+}
